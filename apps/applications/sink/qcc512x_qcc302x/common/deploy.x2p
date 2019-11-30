@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="deploy" path="">
+    <configurations defaultKit="kitres://{3d5da188-f161-441c-a5e5-cda018a35030}">
+        <configuration name="deploy" kit="kitres://{3d5da188-f161-441c-a5e5-cda018a35030}" options="deploy|default">
+            <deployProject></deployProject>
+            <devkitConfiguration>application</devkitConfiguration>
+            <devkitGroup>kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}</devkitGroup>
+            <devkitPath>C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.0.43</devkitPath>
+            <devkitRevision>1565343010</devkitRevision>
+            <property name="BUILD_ID">sdk://tools/ubuild/maker/buildid/examples/timestamp.py</property>
+            <property name="CHIP_TYPE">qcc512x_qcc302x</property>
+            <property name="DBG_CORE">app\p1</property>
+            <property name="DEFAULT_LIBS">usb_early_init</property>
+            <property name="DEFS">__KALIMBA__ HAVE_32BIT_DATA_WIDTH INSTALL_HYDRA_LOG BLUELAB HYDRACORE</property>
+            <property name="EXTRA_WARNINGS">FALSE</property>
+            <property name="INCPATHS">../../../../installed_libs/include/profiles/default_qcc512x_qcc302x sdk://apps/installed_libs/include/firmware_qcc512x_qcc302x sdk://apps/installed_libs/include/firmware_qcc512x_qcc302x/app sdk://apps/installed_libs/include/standard</property>
+            <property name="LIBPATHS">../../../../installed_libs/lib/default_qcc512x_qcc302x/native sdk://apps/installed_libs/lib/os/qcc512x_qcc302x</property>
+            <property name="PRESERVED_LIBS">qcc512x_qcc302x</property>
+            <property name="PRIVATE_DEFS"></property>
+            <property name="PRIVATE_INCPATHS"></property>
+            <property name="STRIP_SYMBOLS">FALSE</property>
+        </configuration>
+    </configurations>
+</project>

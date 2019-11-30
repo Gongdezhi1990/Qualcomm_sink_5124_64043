@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="download_cvc_send" path="">
+    <configurations defaultKit="kitres://{3d5da188-f161-441c-a5e5-cda018a35030}">
+        <configuration name="debug" kit="kitres://{3d5da188-f161-441c-a5e5-cda018a35030}" options="clean|build|default">
+            <deployProject></deployProject>
+            <devkitConfiguration>application</devkitConfiguration>
+            <devkitGroup>kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}</devkitGroup>
+            <devkitPath>C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.0.43</devkitPath>
+            <devkitRevision>1565343010</devkitRevision>
+            <group name="cvc_send" type="capability">
+                <property name="CAP_NAME">cvc_send</property>
+                <property name="H_PATH">${KYMERA_ROOT}/output/$(CONFIG)/gen/cvc_send</property>
+                <property name="MAKEFILE_INCLUDE">./makefile_dyn.mkf</property>
+            </group>
+            <property name="BUILD_ID">sdk://tools/ubuild/maker/buildid/examples/timestamp.py</property>
+            <property name="BUILD_NAME">BUILD_NAME=kymera_stre_audio</property>
+            <property name="BUILD_PATH">BUILD_PATH=$(DEVKIT_ROOT)/audio/kalimba_ROM_4786/kymera/output/stre_rom_v02_release/build</property>
+            <property name="BUILD_ROOT">BUILD_ROOT=$(DEVKIT_ROOT)/audio/kalimba/kymera/build</property>
+            <property name="BUILD_TYPE">MAKEFILE</property>
+            <property name="BUNDLE_NAME">BUNDLE_NAME=download_cvc_send</property>
+            <property name="CHIP_TYPE">qcc512x_qcc302x</property>
+            <property name="CONFIG_MAKE">CONFIG=stre_rom_v02_release</property>
+            <property name="DBG_CORE">app\p1</property>
+            <property name="DEFAULT_LIBS">usb_early_init</property>
+            <property name="DEFS">__KALIMBA__ HAVE_32BIT_DATA_WIDTH INSTALL_HYDRA_LOG BLUELAB HYDRACORE</property>
+            <property name="EXTRA_WARNINGS">FALSE</property>
+            <property name="INCPATHS">../../../../installed_libs/include/profiles/default_qcc512x_qcc302x sdk://apps/installed_libs/include/firmware_qcc512x_qcc302x sdk://apps/installed_libs/include/firmware_qcc512x_qcc302x/app sdk://apps/installed_libs/include/standard</property>
+            <property name="KALSIM_CONFIG_MAKE">CONFIG=stre_rom_kalsim_kalcmd2_release</property>
+            <property name="KALSIM_ENABLE_DEBUGGER">false</property>
+            <property name="KALSIM_FIRMWARE">../../output/stre_rom_kalsim_kalcmd2_release/build/debugbin/kymera_stre_audio.elf</property>
+            <property name="KALSIM_KSE_PATH">../../../../kse</property>
+            <property name="KALSIM_MODE">false</property>
+            <property name="KALSIM_NAME">kalsim_qcc512x_audio.exe</property>
+            <property name="KALSIM_PATCH_BUNDLE">../../output/stre_rom_kalsim_kalcmd2_release/build/patchbin/subsys3_patch0_fw00001F3B.hcf</property>
+            <property name="KALSIM_PLATFORM">stre</property>
+            <property name="KALSIM_SCRIPTS">script/kalsim/download.py,script/kalsim/download_cvc_send.dkcs</property>
+            <property name="KYMERA_SRC_PATH">KYMERA_SRC_PATH=../..</property>
+            <property name="LIBPATHS">../../../../installed_libs/lib/default_qcc512x_qcc302x/native sdk://apps/installed_libs/lib/os/qcc512x_qcc302x</property>
+            <property name="MAKEFILE_TO_CALL">makefile</property>
+            <property name="MAKE_JOBS">MAKE_JOBS=True</property>
+            <property name="OSTYPE">OSTYPE=Windows_NT</property>
+            <property name="OUTPUT">../../output_bundles/stre_rom_v02_release/download_cvc_send/download_cvc_send.elf</property>
+            <property name="PRESERVED_LIBS">qcc512x_qcc302x</property>
+            <property name="PRIVATE_DEFS"></property>
+            <property name="PRIVATE_INCPATHS"></property>
+            <property name="STRIP_SYMBOLS">FALSE</property>
+            <property name="SUBSYSTEM_NAME">audio</property>
+        </configuration>
+        <configuration name="kse" kit="kitres://{3d5da188-f161-441c-a5e5-cda018a35030}" options="clean|build|deploy">
+            <deployProject></deployProject>
+            <devkitConfiguration>application</devkitConfiguration>
+            <devkitGroup>kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}</devkitGroup>
+            <devkitPath>C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.0.43</devkitPath>
+            <devkitRevision>1565343010</devkitRevision>
+            <group name="cvc_send" type="capability">
+                <property name="CAP_NAME">cvc_send</property>
+                <property name="H_PATH">${KYMERA_ROOT}/output/$(CONFIG)/gen/cvc_send</property>
+                <property name="MAKEFILE_INCLUDE">./makefile_dyn.mkf</property>
+            </group>
+            <property name="BUILD_ID">sdk://tools/ubuild/maker/buildid/examples/timestamp.py</property>
+            <property name="BUILD_NAME">BUILD_NAME=kymera_stre_audio</property>
+            <property name="BUILD_PATH">BUILD_PATH=$(DEVKIT_ROOT)/audio/kalimba/kymera/output/stre_rom_kalsim_kalcmd2_release/build</property>
+            <property name="BUILD_ROOT">BUILD_ROOT=$(DEVKIT_ROOT)/audio/kalimba/kymera/build</property>
+            <property name="BUILD_TYPE">MAKEFILE</property>
+            <property name="BUNDLE_NAME">BUNDLE_NAME=download_cvc_send</property>
+            <property name="CHIP_TYPE">qcc512x_qcc302x</property>
+            <property name="CONFIG_MAKE">CONFIG=stre_rom_v02_release</property>
+            <property name="DBG_CORE">app\p1</property>
+            <property name="DEFAULT_LIBS">usb_early_init</property>
+            <property name="DEFS">__KALIMBA__ HAVE_32BIT_DATA_WIDTH INSTALL_HYDRA_LOG BLUELAB HYDRACORE</property>
+            <property name="EXTRA_WARNINGS">FALSE</property>
+            <property name="INCPATHS">../../../../installed_libs/include/profiles/default_qcc512x_qcc302x sdk://apps/installed_libs/include/firmware_qcc512x_qcc302x sdk://apps/installed_libs/include/firmware_qcc512x_qcc302x/app sdk://apps/installed_libs/include/standard</property>
+            <property name="KALSIM_CONFIG_MAKE">CONFIG=stre_rom_kalsim_kalcmd2_release</property>
+            <property name="KALSIM_ENABLE_DEBUGGER">false</property>
+            <property name="KALSIM_FIRMWARE">../../output/stre_rom_kalsim_kalcmd2_release/build/debugbin/kymera_stre_audio.elf</property>
+            <property name="KALSIM_KSE_PATH">../../../../kse</property>
+            <property name="KALSIM_MODE">true</property>
+            <property name="KALSIM_NAME">kalsim_qcc512x_audio.exe</property>
+            <property name="KALSIM_PATCH_BUNDLE">../../output/stre_rom_kalsim_kalcmd2_release/build/patchbin/subsys3_patch0_fw00001F3B.hcf</property>
+            <property name="KALSIM_PLATFORM">stre</property>
+            <property name="KALSIM_SCRIPTS">script/kalsim/download.py,script/kalsim/download_cvc_send.dkcs</property>
+            <property name="KYMERA_SRC_PATH">KYMERA_SRC_PATH=../..</property>
+            <property name="LIBPATHS">../../../../installed_libs/lib/default_qcc512x_qcc302x/native sdk://apps/installed_libs/lib/os/qcc512x_qcc302x</property>
+            <property name="MAKEFILE_TO_CALL">makefile</property>
+            <property name="MAKE_JOBS">MAKE_JOBS=True</property>
+            <property name="OSTYPE">OSTYPE=Windows_NT</property>
+            <property name="OUTPUT">../../output_bundles/stre_rom_kalsim_kalcmd2_release/download_cvc_send/download_cvc_send.elf</property>
+            <property name="PRESERVED_LIBS">qcc512x_qcc302x</property>
+            <property name="PRIVATE_DEFS"></property>
+            <property name="PRIVATE_INCPATHS"></property>
+            <property name="STRIP_SYMBOLS">FALSE</property>
+            <property name="SUBSYSTEM_NAME">audio</property>
+        </configuration>
+    </configurations>
+    <file path="../../capabilities/cvc_send/config_functions.asm"/>
+    <file path="../../capabilities/cvc_send/cvc_send.c"/>
+    <file path="../../capabilities/cvc_send/cvc_send.h"/>
+    <file path="../../capabilities/cvc_send/cvc_send_auto_1mic.dyn"/>
+    <file path="../../capabilities/cvc_send/cvc_send_auto_2mic.dyn"/>
+    <file path="../../capabilities/cvc_send/cvc_send_cap_asm.h"/>
+    <file path="../../capabilities/cvc_send/cvc_send_cap_c.h"/>
+    <file path="../../capabilities/cvc_send/cvc_send_data.dyn"/>
+    <file path="../../capabilities/cvc_send/cvc_send_data.h"/>
+    <file path="../../capabilities/cvc_send/cvc_send_headset_1mic.dyn"/>
+    <file path="../../capabilities/cvc_send/cvc_send_headset_2mic.dyn"/>
+    <file path="../../capabilities/cvc_send/cvc_send_proc.asm"/>
+    <file path="../../capabilities/cvc_send/cvc_send_speaker_1mic.dyn"/>
+    <file path="../../capabilities/cvc_send/cvc_send_speaker_2mic.dyn"/>
+    <file path="../../capabilities/cvc_send/cvc_send_speaker_3mic.dyn"/>
+    <file path="../../capabilities/cvc_send/cvc_send_speaker_4mic.dyn"/>
+    <file path="../../capabilities/cvc_send/pass_through.asm"/>
+</project>

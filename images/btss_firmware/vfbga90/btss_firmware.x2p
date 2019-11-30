@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="btss_firmware" path="">
+    <configurations defaultKit="kitres://{3d5da188-f161-441c-a5e5-cda018a35030}">
+        <configuration name="prebuilt_image" kit="kitres://{3d5da188-f161-441c-a5e5-cda018a35030}" options="default">
+            <deployProject>deploy</deployProject>
+            <devkitConfiguration>prebuilt_image</devkitConfiguration>
+            <devkitGroup>kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}</devkitGroup>
+            <devkitPath>C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.0.43</devkitPath>
+            <devkitRevision>1565343010</devkitRevision>
+            <property name="BUILD_TYPE">DO_NOT_BUILD</property>
+            <property name="OUTPUT_TYPE">NONE</property>
+            <property name="SUBSYSTEM_NAME">btss</property>
+        </configuration>
+    </configurations>
+    <file path="patches/subsys1_patch0_fw000033EF.hcf"/>
+</project>

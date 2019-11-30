@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="kymera_audio" path="">
+    <configurations defaultKit="kitres://{3d5da188-f161-441c-a5e5-cda018a35030}">
+        <configuration name="kse" kit="kitres://{3d5da188-f161-441c-a5e5-cda018a35030}" options="deploy">
+            <deployProject></deployProject>
+            <devkitConfiguration>prebuilt_image</devkitConfiguration>
+            <devkitGroup>kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}</devkitGroup>
+            <devkitPath>C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.0.43</devkitPath>
+            <devkitRevision>1565343010</devkitRevision>
+            <property name="BUILD_ARGUMENTS">CONFIG=stre_rom_v02_release OSTYPE=Windows_NT</property>
+            <property name="BUILD_TYPE">MAKEFILE</property>
+            <property name="CLEAN_ARGUMENTS">clean CONFIG=stre_rom_v02_release OSTYPE=Windows_NT</property>
+            <property name="KALSIM_ENABLE_DEBUGGER">false</property>
+            <property name="KALSIM_FIRMWARE">../output/stre_rom_kalsim_kalcmd2_release/build/debugbin/kymera_stre_audio.elf</property>
+            <property name="KALSIM_KSE_PATH">../../../kse</property>
+            <property name="KALSIM_MODE">true</property>
+            <property name="KALSIM_NAME">kalsim_qcc512x_audio.exe</property>
+            <property name="KALSIM_PLATFORM">stre</property>
+            <property name="MAKEFILE_TO_CALL">makefile</property>
+            <property name="OUTPUT">../output/stre_rom_kalsim_kalcmd2_release/build/debugbin/kymera_stre_audio.elf</property>
+            <property name="OUTPUT_TYPE">NONE</property>
+            <property name="SUBSYSTEM_NAME">audio</property>
+        </configuration>
+        <configuration name="prebuilt_image" kit="kitres://{3d5da188-f161-441c-a5e5-cda018a35030}" options="build|default">
+            <deployProject>deploy</deployProject>
+            <devkitConfiguration>prebuilt_image</devkitConfiguration>
+            <devkitGroup>kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}</devkitGroup>
+            <devkitPath>C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.0.43</devkitPath>
+            <devkitRevision>1565343010</devkitRevision>
+            <property name="BUILD_ARGUMENTS">CONFIG=stre_rom_v02_release OSTYPE=Windows_NT</property>
+            <property name="BUILD_TYPE">MAKEFILE</property>
+            <property name="CLEAN_ARGUMENTS">clean CONFIG=stre_rom_v02_release OSTYPE=Windows_NT</property>
+            <property name="DKCS_PATH">../../../kalimba_ROM_4786/kymera/prebuilt_dkcs/stre_rom_v02_release</property>
+            <property name="KALSIM_ENABLE_DEBUGGER">false</property>
+            <property name="KALSIM_FIRMWARE">../output/stre_rom_kalsim_kalcmd2_release/build/debugbin/kymera_stre_audio.elf</property>
+            <property name="KALSIM_KSE_PATH">../../../kse</property>
+            <property name="KALSIM_MODE">false</property>
+            <property name="KALSIM_NAME">kalsim_qcc512x_audio.exe</property>
+            <property name="KALSIM_PLATFORM">stre</property>
+            <property name="MAKEFILE_TO_CALL">makefile</property>
+            <property name="OUTPUT">../../../kalimba_ROM_4786/kymera/output/stre_rom_v02_release/build/debugbin/kymera_stre_audio.elf</property>
+            <property name="OUTPUT_TYPE">NONE</property>
+            <property name="SUBSYSTEM_NAME">audio</property>
+        </configuration>
+    </configurations>
+    <file path="../../../kalimba_ROM_4786/kymera/output/stre_rom_v02_release/build/patchbin/subsys3_patch0_fw000012B2.hcf"/>
+</project>
